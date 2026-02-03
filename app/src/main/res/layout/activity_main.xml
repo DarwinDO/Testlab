@@ -27,7 +27,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Test 1 - Tương tự Lab 3-4"
+            android:text="Test 1"
             android:textColor="#CCCCCC"
             android:textSize="14sp"
             android:gravity="center"
