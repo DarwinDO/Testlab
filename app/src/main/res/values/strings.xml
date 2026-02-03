@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quản Lý Món Ăn</string>
+    <string name="title_add_food">Thêm Món Ăn</string>
+    <string name="title_edit_food">Sửa Món Ăn</string>
+    <string name="btn_add">THÊM MÓN</string>
+    <string name="btn_save">LƯU</string>
+    <string name="btn_cancel">HỦY</string>
+    <string name="hint_food_name">Nhập tên món ăn...</string>
+    <string name="hint_food_description">Nhập mô tả...</string>
+    <string name="hint_food_price">Nhập đơn giá...</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    tools:context=".MainActivity">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#3F51B5"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quản Lý Món Ăn"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test 1 - Tương tự Lab 3-4"
+            android:textColor="#CCCCCC"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+
+    <!-- Nút Thêm và Cập nhật -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="THÊM MÓN"
+            android:textStyle="bold"
+            android:background="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="8dp"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+    <!-- Hướng dẫn sử dụng -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💡 Nhấn vào item để SỬA | Nhấn giữ để XÓA"
+        android:textColor="#666666"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:paddingBottom="8dp" />
+
+    <!-- ListView hiển thị danh sách món ăn -->
+    <ListView
+        android:id="@+id/lvFood"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#CCCCCC"
+        android:dividerHeight="1dp"
+        android:padding="8dp"
+        android:background="#FFFFFF" />
+
+    <!-- TextView hiển thị kết quả thao tác (nhận dữ liệu từ Intent) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#E8F5E9"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📋 Kết quả thao tác:"
+            android:textColor="#1B5E20"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chưa có thao tác nào"
+            android:textColor="#2E7D32"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

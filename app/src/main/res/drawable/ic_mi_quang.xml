@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ic_mi_quang.xml - Icon Mì Quảng -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    
+    <!-- Nền tròn cam -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M50,50m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0"/>
+    
+    <!-- Tô mì -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M17,36 Q17,26 50,26 Q83,26 83,36 L83,70 Q83,80 50,80 Q17,80 17,70 Z"/>
+    
+    <!-- Nước dùng màu nghệ -->
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M22,38 Q22,33 50,33 Q78,33 78,38 L78,55 Q78,60 50,60 Q22,60 22,55 Z"/>
+    
+    <!-- Mì sợi vàng -->
+    <path
+        android:fillColor="#FFE0B2"
+        android:strokeColor="#FFCC80"
+        android:strokeWidth="2"
+        android:pathData="M28,45 Q40,50 52,45 Q64,50 72,45"/>
+    
+    <path
+        android:fillColor="#FFE0B2"
+        android:strokeColor="#FFCC80"
+        android:strokeWidth="2"
+        android:pathData="M30,52 Q42,48 55,52 Q68,48 70,52"/>
+    
+    <!-- Tôm -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M35,40 Q40,38 45,40 Q43,44 38,44 Z"/>
+    
+    <!-- Trứng -->
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M55,42m-5,0a5,3 0,1 1,10 0a5,3 0,1 1,-10 0"/>
+    
+    <!-- Rau sống -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M62,38 L65,32 L68,38 Z"/>
+    
+    <!-- Đậu phộng -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M30,38m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M50,36m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+
+</vector>

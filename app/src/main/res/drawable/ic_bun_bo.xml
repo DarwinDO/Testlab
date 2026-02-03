@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ic_bun_bo.xml - Icon Bún Bò Huế -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    
+    <!-- Nền tròn đỏ -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M50,50m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0"/>
+    
+    <!-- Tô bún -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,40 Q20,30 50,30 Q80,30 80,40 L80,65 Q80,75 50,75 Q20,75 20,65 Z"/>
+    
+    <!-- Nước dùng -->
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M25,42 Q25,38 50,38 Q75,38 75,42 L75,55 Q75,60 50,60 Q25,60 25,55 Z"/>
+    
+    <!-- Thịt bò -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M35,45 L45,45 L45,52 L35,52 Z"/>
+    
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M55,47 L65,47 L65,54 L55,54 Z"/>
+    
+    <!-- Hành lá -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M40,43 L42,38 L44,43 Z"/>
+    
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M56,42 L58,37 L60,42 Z"/>
+
+</vector>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="#FFFFFF">
+
+    <!-- Hình ảnh món ăn -->
+    <ImageView
+        android:id="@+id/imgFood"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_bun_bo"
+        android:contentDescription="Hình món ăn" />
+
+    <!-- Thông tin món ăn -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp"
+        android:layout_gravity="center_vertical">
+
+        <!-- Tên món ăn -->
+        <TextView
+            android:id="@+id/tvFoodName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên món ăn"
+            android:textColor="#D32F2F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Mô tả -->
+        <TextView
+            android:id="@+id/tvFoodDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mô tả món ăn"
+            android:textColor="#2196F3"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <!-- Đơn giá -->
+        <TextView
+            android:id="@+id/tvFoodPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0 VNĐ"
+            android:textColor="#388E3C"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

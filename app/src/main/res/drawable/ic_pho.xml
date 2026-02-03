@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ic_pho.xml - Icon Phở Hà Nội -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    
+    <!-- Nền tròn vàng -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M50,50m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0"/>
+    
+    <!-- Tô phở -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M18,38 Q18,28 50,28 Q82,28 82,38 L82,68 Q82,78 50,78 Q18,78 18,68 Z"/>
+    
+    <!-- Nước dùng phở -->
+    <path
+        android:fillColor="#FFECB3"
+        android:pathData="M23,40 Q23,35 50,35 Q77,35 77,40 L77,58 Q77,63 50,63 Q23,63 23,58 Z"/>
+    
+    <!-- Bánh phở -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:strokeColor="#BDBDBD"
+        android:strokeWidth="1"
+        android:pathData="M30,45 Q35,50 45,45 Q55,50 60,45 Q65,50 70,45"/>
+    
+    <path
+        android:fillColor="#F5F5F5"
+        android:strokeColor="#BDBDBD"
+        android:strokeWidth="1"
+        android:pathData="M28,52 Q38,57 48,52 Q58,57 68,52"/>
+    
+    <!-- Thịt bò tái -->
+    <path
+        android:fillColor="#D7CCC8"
+        android:pathData="M38,42 L48,42 L48,48 L38,48 Z"/>
+    
+    <path
+        android:fillColor="#D7CCC8"
+        android:pathData="M52,44 L62,44 L62,50 L52,50 Z"/>
+    
+    <!-- Hành lá -->
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M35,40 C35,35 37,35 37,40"/>
+    
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M55,40 C55,35 57,35 57,40"/>
+    
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M65,41 C65,36 67,36 67,41"/>
+
+</vector>
