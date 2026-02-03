@@ -81,7 +81,7 @@ public class AddEditFoodActivity extends AppCompatActivity {
             // Chế độ Thêm mới
             tvTitle.setText("THÊM MÓN ĂN MỚI");
             rbBunBo.setChecked(true);
-            selectedImageResId = R.drawable.ic_bun_bo;
+            selectedImageResId = R.drawable.bun_bo_hue;
             imgPreview.setImageResource(selectedImageResId);
         } else {
             // Chế độ Sửa - nhận dữ liệu món ăn cần sửa
@@ -104,13 +104,13 @@ public class AddEditFoodActivity extends AppCompatActivity {
     }
 
     private void selectRadioButton(int imageResId) {
-        if (imageResId == R.drawable.ic_bun_bo) {
+        if (imageResId == R.drawable.bun_bo_hue) {
             rbBunBo.setChecked(true);
-        } else if (imageResId == R.drawable.ic_pho) {
+        } else if (imageResId == R.drawable.pho_ha_noi) {
             rbPho.setChecked(true);
-        } else if (imageResId == R.drawable.ic_mi_quang) {
+        } else if (imageResId == R.drawable.mi_quang) {
             rbMiQuang.setChecked(true);
-        } else if (imageResId == R.drawable.ic_hu_tieu) {
+        } else if (imageResId == R.drawable.hu_tieu) {
             rbHuTieu.setChecked(true);
         }
     }
@@ -119,13 +119,13 @@ public class AddEditFoodActivity extends AppCompatActivity {
         // Sự kiện khi chọn hình ảnh
         radioGroupImage.setOnCheckedChangeListener((group, checkedId) -> {
             if (checkedId == R.id.rbBunBo) {
-                selectedImageResId = R.drawable.ic_bun_bo;
+                selectedImageResId = R.drawable.bun_bo_hue;
             } else if (checkedId == R.id.rbPho) {
-                selectedImageResId = R.drawable.ic_pho;
+                selectedImageResId = R.drawable.pho_ha_noi;
             } else if (checkedId == R.id.rbMiQuang) {
-                selectedImageResId = R.drawable.ic_mi_quang;
+                selectedImageResId = R.drawable.mi_quang;
             } else if (checkedId == R.id.rbHuTieu) {
-                selectedImageResId = R.drawable.ic_hu_tieu;
+                selectedImageResId = R.drawable.hu_tieu;
             }
             imgPreview.setImageResource(selectedImageResId);
         });

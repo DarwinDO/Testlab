@@ -73,10 +73,10 @@ public class MainActivity extends AppCompatActivity {
         foodList = new ArrayList<>();
 
         // Thêm các món ăn mẫu (tương tự Lab 4)
-        foodList.add(new Food(1, "Bún Bò Huế", "Bún bò cay đặc trưng xứ Huế", 45000, R.drawable.ic_bun_bo));
-        foodList.add(new Food(2, "Phở Hà Nội", "Phở truyền thống Hà Nội", 50000, R.drawable.ic_pho));
-        foodList.add(new Food(3, "Mì Quảng", "Mì Quảng đặc sản miền Trung", 40000, R.drawable.ic_mi_quang));
-        foodList.add(new Food(4, "Hủ Tiếu Sài Gòn", "Hủ tiếu Nam Vang Sài Gòn", 42000, R.drawable.ic_hu_tieu));
+        foodList.add(new Food(1, "Bún Bò Huế", "Bún bò cay đặc trưng xứ Huế", 45000, R.drawable.bun_bo_hue));
+        foodList.add(new Food(2, "Phở Hà Nội", "Phở truyền thống Hà Nội", 50000, R.drawable.pho_ha_noi));
+        foodList.add(new Food(3, "Mì Quảng", "Mì Quảng đặc sản miền Trung", 40000, R.drawable.mi_quang));
+        foodList.add(new Food(4, "Hủ Tiếu Sài Gòn", "Hủ tiếu Nam Vang Sài Gòn", 42000, R.drawable.hu_tieu));
     }
 
     private void setupListView() {
